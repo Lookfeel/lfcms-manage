@@ -4,8 +4,8 @@ namespace core\manage\logic;
 use lfcms\Logic;
 use lfcms\Upload;
 use think\Config;
-use newday\common\Format;
-use newday\file\FileInfo;
+use lookfeel\common\Format;
+use lookfeel\file\FileInfo;
 
 class FileLogic extends Logic
 {

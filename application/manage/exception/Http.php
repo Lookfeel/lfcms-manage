@@ -5,7 +5,7 @@ use lfcms\View;
 use think\Config;
 use think\Request;
 use think\Response;
-use newday\common\Format;
+use lookfeel\common\Format;
 use think\exception\Handle;
 
 class Http extends Handle

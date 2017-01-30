@@ -2,7 +2,7 @@
 namespace app\manage\controller;
 
 use think\Request;
-use newday\common\Format;
+use lookfeel\common\Format;
 use core\manage\logic\FileLogic;
 
 class Upload extends Base

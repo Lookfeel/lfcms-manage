@@ -3,7 +3,7 @@ namespace app\manage\logic;
 
 use think\Url;
 use lfcms\Common;
-use newday\file\FileManager;
+use lookfeel\file\FileManager;
 
 class RuntimeLogic
 {

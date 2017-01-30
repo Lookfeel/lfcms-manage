@@ -3,7 +3,7 @@ namespace core\manage\logic;
 
 use lfcms\Logic;
 use lfcms\Common;
-use newday\common\Format;
+use lookfeel\common\Format;
 
 class MemberLogic extends Logic
 {

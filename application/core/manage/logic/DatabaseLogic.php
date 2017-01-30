@@ -6,7 +6,7 @@ use think\Config;
 use lfcms\Logic;
 use lfcms\Common;
 use MySQLDump;
-use newday\common\Format;
+use lookfeel\common\Format;
 
 class DatabaseLogic extends Logic
 {

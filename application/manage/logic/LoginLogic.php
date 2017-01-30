@@ -4,7 +4,7 @@ namespace app\manage\logic;
 use lfcms\Login;
 use think\Url;
 use think\Config;
-use newday\common\Format;
+use lookfeel\common\Format;
 use core\manage\logic\MemberLogic;
 
 class LoginLogic
