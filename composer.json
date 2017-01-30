@@ -1,7 +1,7 @@
 {
     "name": "lookfeel/lfcms-manage",
     "description": "LFCMS后台模块",
-    "type": "lfcms-module",
+    "type": "cms-module",
     "homepage": "http://lookfeel.co/",
     "license": "Apache-2.0",
     "authors": [
@@ -11,27 +11,9 @@
         }
     ],
     "require": {
-        "lookfeel/lfcms-framework": "dev-master",
-        "lookfeel/lfcms-public": "dev-master"
+        "lookfeel/lfcms-framework": "*",
+        "lookfeel/lfcms-public": "*"
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/lookfeel/core-library.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/lookfeel/lfcms-installer.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/lookfeel/lfcms-framework.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/lookfeel/lfcms-public.git"
-        }
-    ],
     "minimum-stability": "dev",
     "extra": {
         "cms-module": "manage",
