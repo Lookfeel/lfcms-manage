@@ -1,7 +1,7 @@
 <?php
 namespace app\manage\controller;
 
-use lfcms\Common;
+use cms\Common;
 use think\Request;
 use core\manage\logic\FileLogic;
 

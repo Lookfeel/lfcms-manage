@@ -1,7 +1,7 @@
 <?php
 namespace app\manage\logic;
 
-use lfcms\Login;
+use cms\Login;
 use think\Url;
 use think\Config;
 use lookfeel\common\Format;
@@ -81,7 +81,7 @@ class LoginLogic
     /**
      * 登录存储驱动
      *
-     * @return \lfcms\Login
+     * @return \cms\Login
      */
     public static function getLoginDriver()
     {

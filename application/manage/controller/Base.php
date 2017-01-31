@@ -3,7 +3,7 @@ namespace app\manage\controller;
 
 use think\Config;
 use think\Request;
-use lfcms\Controller;
+use cms\Controller;
 use app\manage\logic\AuthLogic;
 use app\manage\logic\LoginLogic;
 use core\manage\logic\MenuLogic;

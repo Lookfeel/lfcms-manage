@@ -3,8 +3,8 @@ namespace core\manage\logic;
 
 use think\Db;
 use think\Config;
-use lfcms\Logic;
-use lfcms\Common;
+use cms\Logic;
+use cms\Common;
 use MySQLDump;
 use lookfeel\common\Format;
 

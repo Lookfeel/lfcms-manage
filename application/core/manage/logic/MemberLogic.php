@@ -1,8 +1,8 @@
 <?php
 namespace core\manage\logic;
 
-use lfcms\Logic;
-use lfcms\Common;
+use cms\Logic;
+use cms\Common;
 use lookfeel\common\Format;
 
 class MemberLogic extends Logic

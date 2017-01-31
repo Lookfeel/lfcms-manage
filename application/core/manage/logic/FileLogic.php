@@ -1,8 +1,8 @@
 <?php
 namespace core\manage\logic;
 
-use lfcms\Logic;
-use lfcms\Upload;
+use cms\Logic;
+use cms\Upload;
 use think\Config;
 use lookfeel\common\Format;
 use lookfeel\file\FileInfo;

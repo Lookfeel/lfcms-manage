@@ -1,7 +1,7 @@
 <?php
 namespace core\manage\validate;
 
-use lfcms\Validate;
+use cms\Validate;
 
 class ConfigValidate extends Validate
 {

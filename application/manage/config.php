@@ -6,7 +6,7 @@ return [
     
     // 分页
     'paginate' => [
-        'type' => 'lfcms\paginator\AmazeUi',
+        'type' => 'cms\paginator\AmazeUi',
         'var_page' => 'page'
     ]
 ];

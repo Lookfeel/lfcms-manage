@@ -2,7 +2,7 @@
 namespace app\manage\logic;
 
 use think\Url;
-use lfcms\Common;
+use cms\Common;
 use lookfeel\file\FileManager;
 
 class RuntimeLogic

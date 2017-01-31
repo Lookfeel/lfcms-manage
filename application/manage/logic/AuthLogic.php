@@ -1,7 +1,7 @@
 <?php
 namespace app\manage\logic;
 
-use lfcms\Auth;
+use cms\Auth;
 use core\manage\logic\MenuLogic;
 use core\manage\logic\MemberLogic;
 

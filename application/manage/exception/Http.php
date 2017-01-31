@@ -1,7 +1,7 @@
 <?php
 namespace app\manage\exception;
 
-use lfcms\View;
+use cms\View;
 use think\Config;
 use think\Request;
 use think\Response;

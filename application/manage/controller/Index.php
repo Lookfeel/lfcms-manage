@@ -3,7 +3,7 @@ namespace app\manage\controller;
 
 use think\Db;
 use think\Url;
-use lfcms\Common;
+use cms\Common;
 use think\Request;
 use core\manage\logic\MemberLogic;
 use core\manage\logic\MenuLogic;

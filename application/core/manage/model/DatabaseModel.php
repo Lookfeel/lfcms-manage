@@ -1,7 +1,7 @@
 <?php
 namespace core\manage\model;
 
-use lfcms\Model;
+use cms\Model;
 
 class DatabaseModel extends Model
 {

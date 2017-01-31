@@ -1,7 +1,7 @@
 <?php
 namespace core\manage\logic;
 
-use lfcms\Logic;
+use cms\Logic;
 use think\Cache;
 
 class ConfigLogic extends Logic

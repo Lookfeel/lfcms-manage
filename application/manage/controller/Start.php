@@ -2,7 +2,7 @@
 namespace app\manage\controller;
 
 use think\Url;
-use lfcms\Captcha;
+use cms\Captcha;
 use think\Request;
 use app\manage\logic\LoginLogic;
 

@@ -1,9 +1,9 @@
 <?php
 namespace core\manage\logic;
 
-use lfcms\Logic;
+use cms\Logic;
 use think\Url;
-use lfcms\Common;
+use cms\Common;
 
 class MenuLogic extends Logic
 {
