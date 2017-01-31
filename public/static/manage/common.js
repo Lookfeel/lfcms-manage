@@ -114,9 +114,10 @@ window.ajaxSuccess = function(data) {
 
 	ajaxDone();
 
-	if(data.url) {
+	if(data.url && data.url !== 'javascript:history.back(-1);') {
 		jumpAlert(data.msg, data.code, data.url, data.wait);
-	} else {
+	} else {"javascript:history.back(-1);"
+
 		commonAlert(data.msg, data.code);
 	}
 };
