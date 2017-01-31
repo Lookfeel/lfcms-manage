@@ -19,6 +19,9 @@ class Http extends Handle
     public function render(\Exception $e)
     {
         // 父类处理
+        if (Config::get('app_debug')) {
+            return parent::render($e);
+        }
         parent::render($e);
         
         try {
