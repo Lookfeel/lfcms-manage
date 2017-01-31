@@ -11,8 +11,7 @@
         }
     ],
     "require": {
-        "lookfeel/lfcms-framework": "*",
-        "lookfeel/lfcms-public": "*"
+        "lookfeel/lfcms-framework": "*"
     },
     "minimum-stability": "dev",
     "extra": {
