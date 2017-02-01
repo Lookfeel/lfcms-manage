@@ -30,7 +30,7 @@ class MenuLogic extends Logic
     public function saveMenu($data, $map)
     {
         $data['menu_flag'] = $this->processMenuFlag($data['menu_url'], $data['menu_build']);
-        return $this->model->save($data, $map);
+        return $this->model->saveById($data, $map);
     }
 
     /**

@@ -116,30 +116,6 @@ class Index extends Base
         }
     }
 
-    /**
-     * 缓存管理
-     *
-     * @param Request $request            
-     * @return string
-     */
-    public function runtime(Request $request)
-    {
-        $this->site_title = '缓存管理';
-        
-        // 路径
-        $path = $request->param('path');
-        $path = $path ? base64_decode($path) : '/';
-        $this->assign('path', $path);
-        
-        // 上一级
-        $this->assign('path_base', RuntimeLogic::dirName($path));
-        
-        // 文件列表
-        $list = RuntimeLogic::getRuntime($path);
-        $this->assign('list', $list);
-        
-        return $this->fetch();
-    }
 
     /**
      * 删除缓存

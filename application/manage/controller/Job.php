@@ -96,7 +96,7 @@ class Job extends Base
                 'available_at' => time() + $time
             ];
         }
-        JobLogic::model()->save($data, $id);
+        JobLogic::model()->saveById($data, $id);
         
         return $this->success('操作成功', 'javascript:history.go(0);');
     }

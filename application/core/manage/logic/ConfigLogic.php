@@ -125,7 +125,7 @@ class ConfigLogic extends Logic
      */
     public function saveConfig($data, $map)
     {
-        $this->model->save($data, $map);
+        $this->model->saveById($data, $map);
         
         return $this->clearCache();
     }

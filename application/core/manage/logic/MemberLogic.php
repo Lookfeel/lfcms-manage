@@ -132,7 +132,7 @@ class MemberLogic extends Logic
         // 清除缓存
         unset(self::$users[$user_id]);
         
-        return $this->model->save($data, $user_id);
+        return $this->model->saveById($data, $user_id);
     }
 
     /**
@@ -204,9 +204,6 @@ class MemberLogic extends Logic
             'login_ip' => Common::getIp()
         ];
         $this->saveUser($user_id, $data);
-        
-        // 记录日志
-        MemberLogLogic::instance()->addLog($user_id);
     }
 
     /**

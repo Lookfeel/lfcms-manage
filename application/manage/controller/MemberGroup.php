@@ -93,7 +93,7 @@ class MemberGroup extends Base
             }
             
             // 保存群组
-            $group_logic->model->save($data, $group_id);
+            $group_logic->model->saveById($data, $group_id);
             
             return $this->success('修改群组成功', Url::build('memberGroup/index'));
         } else {
@@ -138,7 +138,7 @@ class MemberGroup extends Base
             $data = [
                 'group_menus' => implode(',', $group_menus)
             ];
-            $group_logic->model->save($data, $group_id);
+            $group_logic->model->saveById($data, $group_id);
             
             return $this->success('保存权限成功', Url::build('memberGroup/index'));
         } else {
