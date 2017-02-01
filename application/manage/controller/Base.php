@@ -32,6 +32,7 @@ class Base extends Controller
      */
     protected function _initialize()
     {
+        Session::boot();
         $public_action = Config::get('manage_public_action');
         if (! AuthLogic::isPublicAction($public_action)) {
             

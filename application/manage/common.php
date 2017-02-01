@@ -68,12 +68,11 @@ function moduleUrl($url = '', $vars = '', $suffix = true, $domain = false)
  * @return \Flash
  */
 function notice($message = '', $type = 'info') {
-    \think\Session::boot();
-    $flash = new \Tamtamchik\SimpleFlash\Flash(new \extend\manage\AmazeUITemplate);
+    $flash = new \Tamtamchik\SimpleFlash\Flash(new \app\manage\extend\AmazeUITemplate);
 
+    \think\View::share('flash', $flash);
     if ( ! empty($message)) {
         return $flash->message($message, $type);
     }
-
     return $flash;
 }

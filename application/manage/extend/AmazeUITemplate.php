@@ -1,5 +1,5 @@
 <?php
-namespace extend\manage;
+namespace app\manage\extend;
 
 use Tamtamchik\SimpleFlash\BaseTemplate;
 use Tamtamchik\SimpleFlash\TemplateInterface;
