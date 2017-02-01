@@ -1,6 +1,7 @@
 <?php
 namespace extend\manage;
 
+use Tamtamchik\SimpleFlash\BaseTemplate;
 use Tamtamchik\SimpleFlash\TemplateInterface;
 
 /**
