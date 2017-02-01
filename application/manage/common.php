@@ -69,7 +69,7 @@ function moduleUrl($url = '', $vars = '', $suffix = true, $domain = false)
  */
 function notice($message = '', $type = 'info') {
     \think\Session::boot();
-    $flash = new Flash(new \extend\manage\AmazeUITemplate);
+    $flash = new \Tamtamchik\SimpleFlash\Flash(new \extend\manage\AmazeUITemplate);
 
     if ( ! empty($message)) {
         return $flash->message($message, $type);
