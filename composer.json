@@ -13,7 +13,7 @@
     "require": {
         "lookfeel/lfcms-framework": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "extra": {
         "cms-module": "manage",
         "cms-file": "common.php"
