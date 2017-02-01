@@ -58,3 +58,22 @@ function moduleUrl($url = '', $vars = '', $suffix = true, $domain = false)
     }
     return \think\Url::build($url, $vars, $suffix, $domain);
 }
+
+/**
+ * 提醒
+ *
+ * @param string $message
+ * @param string $type
+ *
+ * @return \Flash
+ */
+function notice($message = '', $type = 'info') {
+    \think\Session::boot();
+    $flash = new Flash(new \extend\manage\AmazeUITemplate);
+
+    if ( ! empty($message)) {
+        return $flash->message($message, $type);
+    }
+
+    return $flash;
+}
