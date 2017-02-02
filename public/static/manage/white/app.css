@@ -2302,13 +2302,6 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
 	}
 }
 
-@media screen and (min-width: 641px) {
-	[class*=am-u-] {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-}
-
 @media screen and (max-width: 641px) {
 	.theme-white .tpl-error-title,
 	.theme-black .tpl-error-title {

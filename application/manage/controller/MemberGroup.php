@@ -185,7 +185,7 @@ class MemberGroup extends Base
         // 删除群组
         MemberGroupLogic::model()->del($group_id);
         
-        return $this->success('删除群组成功', 'history.go(0);');
+        return $this->success('删除群组成功');
     }
 
     /**
@@ -212,6 +212,6 @@ class MemberGroup extends Base
         $value = $request->param('value', '');
         MemberGroupLogic::model()->modify($id, $field, $value);
         
-        return $this->success('更改成功', 'history.go(0);');
+        return $this->success('更改成功');
     }
 }

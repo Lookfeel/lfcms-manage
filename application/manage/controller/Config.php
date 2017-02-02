@@ -178,7 +178,7 @@ class Config extends Base
         // 删除配置
         ConfigLogic::instance()->delConfig($config_id);
         
-        return $this->success('删除配置成功', 'history.go(0);');
+        return $this->success('删除配置成功');
     }
 
     /**
@@ -219,6 +219,6 @@ class Config extends Base
             $config_logic->saveConfig($data, $map);
         }
         
-        return $this->success('保存设置成功', 'history.go(0);');
+        return $this->success('保存设置成功');
     }
 }

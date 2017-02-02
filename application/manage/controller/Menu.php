@@ -203,7 +203,7 @@ class Menu extends Base
         // 删除菜单
         $menu_model->del($menu_id);
         
-        return $this->success('删除菜单成功', 'history.go(0);');
+        return $this->success('删除菜单成功');
     }
 
     /**
@@ -232,6 +232,6 @@ class Menu extends Base
         $value = $request->param('value', '');
         MenuLogic::model()->modify($id, $field, $value);
         
-        return $this->success('更改成功', 'history.go(0);');
+        return $this->success('更改成功');
     }
 }
