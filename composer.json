@@ -11,7 +11,6 @@
         }
     ],
     "require": {
-        "lookfeel/lfcms-framework": "*",
         "tamtamchik/simple-flash": "^1.2"
     },
     "extra": {
